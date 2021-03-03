@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <canvas id="game" style="border:1px solid black;width:100%;height:400px;"></canvas>
+    <img src="dollar.png" id="money">
+    <p id="A1">20</p>
+    <input id="code" type="text" placeholder="enter redeem code...">
+    <button onclick="submit()">submit</button>
+    Select three options
+    <div id="my_div">
+        <div style="position:absolute;top:410;left:540px;" id="link"></div>
+        <div onclick="theory(1)" class="theory" style="background-image: url(https://lh3.googleusercontent.com/E4gc71aY1EMneElTaKo9cNr3Mfna1xbjoR46oVgLS9FHPzVLY-6aMQbd-P30oNZ45LWkHs3DmttOX_5k6ZLT=s400); background-size: 150px;">iron age</div>
+        <div onclick="theory(2)" class="theory" style="background-image: url(grass_block.jpeg); background-size: 150px;">minecraft</div>
+        <div onclick="theory(3)" class="theory" style="background-image: url(peashooter.png);background-size: 147px;">plants vs zombies</div>
+        <div onclick="theory(4)" id="A2"></div>
+        <div id="display">
+            <div id="card1"></div>
+            <div id="card2"></div>
+            <div id="card3"></div>
+            <div id="info"></div>
+            <div style="position:absolute;top:0px;left:270px;" id="cards"></div>
+        </div>
+    <div>
+    <script src="index.js"></script>
+</body>
+</html>
