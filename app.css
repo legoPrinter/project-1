@@ -19,13 +19,24 @@ body {
     height: 60px;
 }
 
+.line {
+    position:absolute;
+    background-color:lightblue;
+    width:calc(100% - 16px);
+    height:10px;
+}
+
+.line:hover {
+    background-color: cornflowerblue;
+}
+
 #info {
     position: absolute;
     top: 0px;
     left: 70px;
 }
 
-#money {
+#dollar {
     width: 40px;
     position: absolute;
     top: 10;
